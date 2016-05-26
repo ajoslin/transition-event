@@ -1,0 +1,38 @@
+{
+  "name": "transition-event",
+  "main": "index.js",
+  "version": "0.0.0",
+  "description": "Transition event handlers for value-event",
+  "license": "MIT",
+  "repository": "ajoslin/transition-event",
+  "author": {
+    "name": "Andrew Joslin",
+    "email": "andrewtjoslin@gmail.com",
+    "url": "ajoslin.com"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "keywords": [
+    "transition",
+    "transitionend",
+    "value-event",
+    "virtual-dom"
+  ],
+  "devDependencies": {
+    "dispatch-event": "~1.0.0",
+    "standard": "^7.0.0",
+    "tape": "^4.0.0",
+    "thermometer": "~1.4.0",
+    "virtual-dom": "~2.1.1"
+  },
+  "files": [
+    "index.js",
+    "test.js"
+  ],
+  "dependencies": {
+    "dom-delegator": "~13.1.0",
+    "value-event": "~5.1.1",
+    "xtend": "~4.0.1"
+  }
+}
